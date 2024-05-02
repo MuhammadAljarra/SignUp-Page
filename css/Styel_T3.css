@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/photo_٢٠٢٤-٠٤-٢٩_٢٢-٢٨-٢٩.jpg);
+    font-family: 'EB Garamond',sans-serif;
+}
+.signup-box{
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    border: 2px solid rgb(198, 195, 195,0.5);
+    border-radius: 10px;
+    padding: 0 30px 20px ;
+    text-align: left;
+    margin: auto;
+    box-shadow: 0 5px 40px rgba(8, 7, 16, 0.6);
+}
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+.signup-box{
+    animation-name:slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function:ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-duration: normal;
+    animation-fill-mode: none;
+
+    /* transform: translateX(-150px); */
+
+}
+
+h2{
+    text-align: center;
+    padding-top: 10px;
+}
+h4{
+    text-align:left;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+
+}
+form label{
+    display: flex;
+    margin-top: 5px;
+    font-size: 15px;
+}
+form input{
+    width: 100%;
+    outline: 0;
+    margin-top: -8px;
+    padding: 6px 6px 6px 10px ;
+    border: 5px solid rgba(201, 191, 177, 0.877) ;
+    border-radius: 12px 12px 12px 12px;
+    padding-left: 30px;
+    /* cursor: pointer; */
+    font-size: 1em;
+    background: rgba(201, 191, 177, 0.877); 
+}
+form i{
+    /* position: absolute; */
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 5px;
+    transform: translateY(450%);
+    transform: translateZ(50%);
+    color:rgba(138, 87, 45, 2.26);
+    font-size: 20px; 
+
+    padding-left: 10px;
+}
+form ::placeholder{
+    color:rgba(138, 87, 45, 2.26);
+    font-size: 13px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+ }
+.Account button{
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 200px;
+    padding: 12px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color:  rgb(56, 26, 1) ;
+    color: white;
+}
+.Account button:hover{
+    background-color: white;
+    color:  rgb(56, 26, 1);
+
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.regs{
+    color: rgb(0, 0, 0);
+}
+.regs a{
+    text-decoration:underline;
+    color:rgb(56, 26, 1);
+}
+.regs a:hover{
+    color:  rgb(255, 117, 5) ;
+}
